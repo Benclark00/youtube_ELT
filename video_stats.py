@@ -64,4 +64,3 @@ if __name__ == "__main__":
         channel_playlist_dict[channel] = (get_playlist_id(channel))
         channel_video_dict[channel] = get_video_ids(channel_playlist_dict[channel])
         print(len(channel_video_dict[channel]))
-    print('success?')
